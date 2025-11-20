@@ -84,17 +84,6 @@ Or manually set variables in the Airflow UI:
 - Go to Admin → Variables
 - Add the required variables (see Configuration section)
 
-## ⚙️ Configuration
-
-### Required Airflow Variables
-
-| Variable Name | Description | Default Value |
-|--------------|-------------|---------------|
-| `ml_model_type` | Type of ML model | `random_forest` |
-| `accuracy_threshold` | Minimum accuracy for deployment | `0.8` |
-| `crawl_url` | Data source URL | - |
-| `notification_email` | Email for alerts | - |
-
 ## 📁 Project Structure
 
 ```
